@@ -1,4 +1,4 @@
-# AlfrescoResetPassword
+# AlfrescoResetPassword Perso
 
 Alfresco Reset Password add-on is a great thing that allows you to solve missing capability of Alfresco to reset passwords for users who forgot owns password without contacting Administrator.
 
