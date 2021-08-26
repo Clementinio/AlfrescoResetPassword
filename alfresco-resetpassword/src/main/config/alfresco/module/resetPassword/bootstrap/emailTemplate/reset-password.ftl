@@ -37,7 +37,7 @@
                                                         </td>
                                                         <td>
                                                             <div style="font-size: 22px; padding-bottom: 4px;">
-                                                                Change password for Alfresco ${productName!""} account
+                                                                Changement de mot de passe pour le compte Alfresco ${productName!""}
                                                             </div>
                                                             <div style="font-size: 13px;">
                                                             ${date?datetime?string.full}
@@ -46,16 +46,15 @@
                                                     </tr>
                                                 </table>
                                                 <div style="font-size: 14px; margin: 12px 0px 24px 0px; padding-top: 10px; border-top: 1px solid #aaaaaa;">
-                                                    <p>Dear ${assignee.firstname},</p>
+                                                    <p>Cher(e) ${assignee.firstname},</p>
 
-                                                    <p>we received a request for password change
-                                                        at ${shareUrl}</p>
+                                                    <p>Nous avons reçu une demande de changement de mot de passe 
+                                                        sur ${shareUrl}</p>
 
-                                                    <br/><a href="${shareUrl}/page/changePassWF?token=${token}">Go to
-                                                    this link</a> to set your new password.
-                                                    The link will be active for 24 hours.</p>
+                                                    <br/><a href="${shareUrl}/page/changePassWF?token=${token}">Cliquer ce lien</a> pour définir votre nouveau mot de passe.
+                                                    Le lien sera actif pendant 24 heures.</p>
 
-                                                    <p>Sincerely,<br/>
+                                                    <p>Cordialement,<br/>
                                                         Alfresco ${productName!""}</p>
                                                 </div>
                                             </td>
